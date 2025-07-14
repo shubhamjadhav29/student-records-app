@@ -1,0 +1,56 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9fb;
+  margin: 0;
+  padding: 20px;
+}
+
+.app-container {
+  max-width: 600px;
+  margin: 0 auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+form input {
+  display: block;
+  margin-bottom: 10px;
+  padding: 8px;
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background-color: #6c63ff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.student-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px 0;
+  padding: 10px;
+  background: #f0f0ff;
+  border-radius: 6px;
+}
+
+.action-buttons button {
+  margin: 0 4px;
+  background: #e0e0e0;
+  border: none;
+  border-radius: 6px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.action-buttons button:hover {
+  background-color: #c0c0ff;
+}

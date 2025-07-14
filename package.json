@@ -1,0 +1,10 @@
+{
+  "name": "student-records-app",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "concurrently \"npm start --prefix server\" \"npm start --prefix client\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
